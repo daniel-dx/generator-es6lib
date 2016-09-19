@@ -104,9 +104,21 @@ module.exports = yeoman.Base.extend({
     var pkg = this.fs.readJSON(this.destinationPath(folder + '/package.json'), {});
     extend(pkg, {
       name: this.appName,
+      main: 'dist/' + this.slugifiedAppName + '.js',
       description: this.appDescription,
       author: this.appAuthor,
-      keywords: this.appKeywords
+      keywords: this.appKeywords,
+      repository: {
+        url: ''
+      },
+      bugs: {
+        url: ''
+      },
+      homepage: '',
+      babelBoilerplateOptions: {
+        entryFileName: this.slugifiedAppName + '.js',
+        mainVarName: this.humanizedAppName
+      }
     });
     this.fs.writeJSON(this.destinationPath(folder + '/package.json'), pkg);
   },
