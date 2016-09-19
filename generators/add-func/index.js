@@ -32,11 +32,11 @@ module.exports = yeoman.Base.extend({
       this.props = props;
 
       // example: name = demo-user
-      this.props.libName = s(this.props.libName).slugify().value(); // => demo-user
+      this.props.libName = s(this.props.libName).underscored().slugify().value(); // => demo-user
       this.props.camelLibName = s(this.props.libName).camelize().value(); // => demoUser
       this.props.firstCapCamelLibName = s(this.props.camelLibName).capitalize().value(); // => DemoUser
 
-      this.props.funcName = s(this.props.funcName).slugify().value(); // => demo-user
+      this.props.funcName = s(this.props.funcName).underscored().slugify().value(); // => demo-user
       this.props.camelFuncName = s(this.props.funcName).camelize().value(); // => demoUser
       this.props.firstCapCamelFuncName = s(this.props.camelFuncName).capitalize().value(); // => DemoUser
      
