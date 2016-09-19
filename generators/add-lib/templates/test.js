@@ -10,12 +10,12 @@ describe('<%= camelLibName %>', () => {
 
     it('No Arguments', () => {
       <%= camelLibName %>.sayHi();
-      expect(<%= camelLibName %>.sayHi).to.have.returned(sinon.match(value => value.trim() === '<%= camelLibName %>'));
+      expect(<%= camelLibName %>.sayHi).to.have.returned(sinon.match(value => value.trim() === 'Hello'));
     });
 
     it('Provide a valid name parameter', () => {
       <%= camelLibName %>.sayHi('daniel');
-      expect(<%= camelLibName %>.sayHi).to.have.returned('<%= camelLibName %> daniel');
+      expect(<%= camelLibName %>.sayHi).to.have.returned('Hello daniel');
     });
 
     it('Provate a invalid type name parameter', () => {
