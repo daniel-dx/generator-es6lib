@@ -1,6 +1,6 @@
 {
-  "name": "generator-es-6-lib",
-  "version": "0.0.0",
+  "name": "generator-es6lib",
+  "version": "0.0.2",
   "description": "The generator to generate es6 lib project",
   "homepage": "",
   "author": {
@@ -44,7 +44,7 @@
       "mocha": true
     }
   },
-  "repository": "/generator-es-6-lib",
+  "repository": "/generator-es6lib",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

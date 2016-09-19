@@ -28,7 +28,7 @@ module.exports = yeoman.Base.extend({
    */
   welcomeMessage() {
     logger.log(yosay(
-      'Welcome to the ' + chalk.red('generator-es-6-lib') + ' generator!'
+      'Welcome to the ' + chalk.red('generator-es6lib') + ' generator!'
     ));
   },
 
@@ -39,7 +39,7 @@ module.exports = yeoman.Base.extend({
     var prompt = {
       name   : 'folder',
       message: 'In which folder would you like the project to be generated? ',
-      default: 'generator-es-6-lib'
+      default: 'generator-es6lib'
     };
 
     return this.prompt(prompt).then(props => {

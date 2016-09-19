@@ -5,7 +5,7 @@ var mockery = require('mockery');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
-describe('generator-es-6-lib:app', function () {
+describe('generator-es6lib:app', function () {
 
   before(function () {
     mockery.enable({

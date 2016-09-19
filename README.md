@@ -1,19 +1,19 @@
-# generator-es-6-lib [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-es6lib [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > The generator to generate es6 lib project
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-es-6-lib using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-es6lib using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-es-6-lib
+npm install -g generator-es6lib
 ```
 
 Then generate your new project:
 
 ```bash
-yo es-6-lib
+yo es6lib
 ```
 
 ## Getting To Know Yeoman
@@ -28,11 +28,11 @@ yo es-6-lib
 MIT © [Daniel.xiao](http://yeoman.io)
 
 
-[npm-image]: https://badge.fury.io/js/generator-es-6-lib.svg
-[npm-url]: https://npmjs.org/package/generator-es-6-lib
-[travis-image]: https://travis-ci.org//generator-es-6-lib.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-es-6-lib
-[daviddm-image]: https://david-dm.org//generator-es-6-lib.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-es-6-lib
-[coveralls-image]: https://coveralls.io/repos//generator-es-6-lib/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-es-6-lib
+[npm-image]: https://badge.fury.io/js/generator-es6lib.svg
+[npm-url]: https://npmjs.org/package/generator-es6lib
+[travis-image]: https://travis-ci.org//generator-es6lib.svg?branch=master
+[travis-url]: https://travis-ci.org//generator-es6lib
+[daviddm-image]: https://david-dm.org//generator-es6lib.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-es6lib
+[coveralls-image]: https://coveralls.io/repos//generator-es6lib/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-es6lib
