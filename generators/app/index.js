@@ -70,16 +70,16 @@ module.exports = yeoman.Base.extend({
 
     var prompts = [{
       name   : 'appName',
-      message: 'What would you like to call your application?',
+      message: 'What would you like to call your lib?',
       default: folder
     }, {
       name   : 'appDescription',
       message: 'How would you describe your application?',
-      default: 'Activity project with Vue'
+      default: 'ES6 lib'
     }, {
       name   : 'appKeywords',
-      message: 'How would you describe your application in comma seperated key words?',
-      default: 'activity vue'
+      message: 'How would you describe your lib in comma seperated key words?',
+      default: 'es6'
     }, {
       name   : 'appAuthor',
       message: 'What is your company/author name?'
@@ -137,7 +137,7 @@ module.exports = yeoman.Base.extend({
         callback: function () {
           logger.log('');
           logger.green('------------------------------------------');
-          logger.green('Your application project is ready!');
+          logger.green('Your lib project is ready!');
           logger.log('');
           logger.green('To Get Started, run the following command:');
           logger.log('');
